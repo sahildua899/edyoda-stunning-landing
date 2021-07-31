@@ -1,6 +1,4 @@
-#body {
-    margin: 0;
-}
+
 #main-container {
     display: inline;
     align-items: center;
@@ -22,6 +20,7 @@
     width: 150px;   
     top: 10px;
     float: left;
+    left: 15px;
 }
 #myaccount {
     position: absolute;
@@ -36,6 +35,10 @@
     color: #adadad;
 }
 
+.menu-item:hover {
+    color: black;
+    text-decoration: underline blue 3px;
+}
 .active {
     color: black;
     text-decoration: underline 3px blue; 
