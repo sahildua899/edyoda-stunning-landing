@@ -1,0 +1,205 @@
+#body {
+    margin: 0;
+}
+#main-container {
+    display: inline;
+    align-items: center;
+    padding: 10px
+}
+#menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 100px;
+}
+
+#menu-container a {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#logo {
+    width: 150px;   
+    top: 10px;
+    float: left;
+}
+#myaccount {
+    position: absolute;
+    float: right;
+    right: 15px;
+}
+#menu-container a .active {
+    color: black;
+}
+
+.menu-item {
+    color: #adadad;
+}
+
+.active {
+    color: black;
+    text-decoration: underline 3px blue; 
+    padding-bottom: 2px;
+}
+
+.my-account {
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 12px 30px;
+    border-radius: 60px;
+}
+
+/* Main Section */
+#main-article {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    width: 90%;
+}
+#left-section {
+    width: 50%;
+    padding-left: 200px;
+    margin-bottom: 0;
+}
+#right-section {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.stunning-workplace {
+    font-size: 70px;
+}
+
+.new-account {
+    background-color: #5243C0;
+    color: white;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+    margin: 0%;
+}
+.button-sections {
+    display: flex;
+}
+.arrow-button {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/* Cards */
+
+/* DMM Card */
+.main-card {
+    display: flex;
+    align-items: center;
+    background-color: #fbfbfb;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    transition: all 0.3s;
+    margin-bottom: 0;
+}
+.tick-grey {
+    width: 20px;
+    border: 1px solid #b3b1b1;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    color: #b3b1b1;
+}
+
+.text-dmm {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    /* color: rgb(61, 56, 56); */
+}
+.user {
+    padding-left: 30px;
+    width: 30px;
+}
+.date {
+    color:#b3b1b1 ;
+}
+.pink {
+    width: 5px;
+    background-color: #FED7DA;
+    padding: 5px;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+.main-card:hover {
+    background-color: white;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 20px #b3b1b1;
+}
+
+.main-card:hover .tick-grey {
+    background-color: blue;
+    color: white;
+}
+.main-card:hover .pink {
+    background-color: rgb(248, 135, 154);
+}
+
+/* Blurr Animation */
+.text-blurr {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.user-blurr {
+    padding-left: 15px;
+    width: 30px;
+}
+.red {
+    width: 5px;
+    background-color:  #f78d69;
+    padding: 5px;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+
+.main-container .red {
+    background-color: #FD6534;
+}
+
+/* Illustration */
+
+.user-illustration {
+    padding-left: 40px;
+    width: 30px;
+}
+
+.green {
+    width: 5px;
+    background-color:  #9ED095;
+    padding: 5px;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+
+/* Refunds */
+
+.user-refunds {
+    padding-left: 53px;
+    width: 30px;
+}
+
+.yellow {
+    width: 5px;
+    background-color:  #FFE4A0;
+    padding: 5px;
+    border-radius: 45px;
+    margin-left: 10px;
+}
+
+#cards {
+    padding-top: 20px;
+}
